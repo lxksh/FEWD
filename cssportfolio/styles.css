@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ab867c;
+}
+h1, h2 {
+    text-align: center;
+}
+nav ul {
+    text-align: center;
+    background-color: #1c0f10d9;
+}
+nav ul a {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+nav ul a:hover {
+    background-color: #575757;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+}
+form button {
+    padding: 10px 20px;
+    background-color: #6d1ca7;
+    color: white;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #575757;
+}
