@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Laksh Vijayvargiya</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#intro">Self Introduction</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                <li class="nav-item"><a class="nav-link" href="#feedbackform">Feedback</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <section id="intro" class="card">
+            <div class="card-body">
+                <h2 class="card-title">Self Introduction</h2>
+                <p class="card-text">Hi, I am Laksh Vijayvargiya, a student at KMIT. I am interested in Java language and have worked on projects like Visitor Tracking System and Project Management System for my college.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="card">
+            <div class="card-body">
+                <h2 class="card-title">Skills</h2>
+                <span class="badge badge-primary">Java</span>
+                <span class="badge badge-secondary">HTML</span>
+                <span class="badge badge-success">CSS</span>
+                <span class="badge badge-danger">Bootstrap</span>
+                <span class="badge badge-warning">C</span>
+                <span class="badge badge-info">C++</span>
+                <span class="badge badge-light">ANN</span>
+                <span class="badge badge-dark">CN</span>
+                <span class="badge badge-primary">SQL</span>
+            </div>
+        </section>
+
+        <section id="projects" class="card">
+            <div class="card-body">
+                <h2 class="card-title">Projects</h2>
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="https://github.com/lxksh/Visitor-Management-System">Visitor Management</a></h5>
+                                <p class="card-text">I did a project on Visitor Management System where I worked with IoT machines. Connected a workspace parking system.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="https://github.com/lxksh/maven">Maven</a></h5>
+                                <p class="card-text">It is a Maven working project on how we automate the development of a project.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="card">
+            <div class="card-body">
+                <h2 class="card-title">Education</h2>
+                <table class="table table-bordered">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>S.No.</th>
+                            <th>Course</th>
+                            <th>Institute</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>B.Tech - CSE</td>
+                            <td>Keshav Memorial Institute of Technology</td>
+                            <td>8.22</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Intermediate</td>
+                            <td>Keshav Smarak Junior College</td>
+                            <td>97.1%</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>School</td>
+                            <td>Howard Public School</td>
+                            <td>91.7%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="achievements" class="card">
+            <div class="card-body">
+                <h2 class="card-title">Achievements</h2>
+                <div id="achievementsCarousel" class="carousel slide" data-ride="carousel" data-interval="1800">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Certification in AI/ML</h5>
+                                    <p class="card-text">I did a certification where I learned about various ML models and their working and functionalities. It helped me in learning Neural Networks and various methods for data learning.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Member of Organizing Committee</h5>
+                                    <p class="card-text">We organize all the events of college. It helped me in team building and other logistic skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">NSS Coordinator</h5>
+                                    <p class="card-text">Did social work, where i learnt empathy and team building .</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#achievementsCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#achievementsCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="false" filter:invert(100%)></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                <!-- </div>
+                        <div class="mt-3 text-center">
+            <button class="btn btn-primary" onclick="$('#achievementsCarousel').carousel('prev')">Previous</button>
+            <button class="btn btn-primary" onclick="$('#achievementsCarousel').carousel('next')">Next</button>
+        </div> -->
+            </div>
+        </section>
+
+        <section id="feedbackform" class="card">
+            <div class="card-body">
+                <h2 class="card-title">Feedback Form</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" name="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Submit Feedback</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="card">
+            <div class="card-body">
+                <h2 class="card-title">Contact</h2>
+                <p>Email: lakshvijay04@gmail.com</p>
+                <p>Phone: 8678879787</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

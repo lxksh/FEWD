@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #81b8ef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            background-color: #283b50;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .form-label {
+            color: #495057;
+        }
+        .form-control {
+            margin-bottom: 15px;
+        }
+        .btn-primary {
+            width: 100%;
+            background-color: #283b50;
+        }
+        .btn-primary:hover {
+            background-color: #1c2a3d;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            Feedback Form
+        </div>
+        <div class="card-body">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone" class="form-label">Phone:</label>
+                    <input type="number" class="form-control" id="phone" name="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="rating" class="form-label">Rating:</label>
+                    <input type="range" class="form-control-range" id="rating" name="rating" min="1" max="5">
+                    <span id="ratingValue" class="badge badge-primary"></span>
+                </div>
+                <div class="form-group">
+                    <label for="Questions" class="form-label">Questions:</label>
+                    <textarea class="form-control" id="Questions" name="Questions" placeholder="Enter your questions"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="Comments" class="form-label">Comments:</label>
+                    <textarea class="form-control" id="Comments" name="Comments" placeholder="Enter your comments"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
